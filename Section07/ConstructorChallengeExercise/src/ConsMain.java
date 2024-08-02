@@ -1,4 +1,4 @@
-public class Main {
+public class ConsMain {
     public static void main(String[] args) {
         Customer cus1 = new Customer();
         Customer cus2 = new Customer("Second", "second@email.com");

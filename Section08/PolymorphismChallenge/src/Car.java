@@ -6,15 +6,15 @@ public class Car {
     }
 
     public void startEngine() {
-        System.out.println("Car started");
+        System.out.println("Car -> started");
     }
 
     public void drive() {
-        System.out.println("Car driving, type is " + this.getClass().getSimpleName());
+        System.out.println("Car -> driving, type is " + this.getClass().getSimpleName());
         runEngine();
     }
 
     protected void runEngine() {
-        System.out.println("Car run Engine");
+        System.out.println("Car -> run Engine");
     }
 }
